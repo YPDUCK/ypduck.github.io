@@ -35,3 +35,29 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+/* 按讚按鈕樣式 */
+#like-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#like-button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#like-button:hover {
+    background-color: #ff9900;
+}
+
+#like-count {
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
