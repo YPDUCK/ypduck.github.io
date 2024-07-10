@@ -2,12 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background: linear-gradient(120deg, #f0e68c, #b0c4de); /* 背景設為淡黃色和淡藍色的漸變 */
+    background: linear-gradient(120deg, #f0e68c, #d3d3d3); /* 背景設為淡黃色和淡灰色的漸變 */
 }
 
 h1 {
-    color: #ffd700; /* 文字設為金黃色 */
+    color: #000000; /* 標題文字設為黑色 */
     text-align: center;
+    font-size: 3em;
+    text-shadow: 2px 2px #d3d3d3; /* 添加陰影效果 */
 }
 
 #content {
@@ -15,8 +17,27 @@ h1 {
     padding: 20px;
     background: #fffacd; /* 背景設為米黃色 */
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid #ffb6c1; /* 邊框設為淡粉色 */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #d2b48c; /* 邊框設為淡褐色 */
     max-width: 800px;
     line-height: 1.6;
+}
+
+/* 添加一些科技感的效果 */
+#content::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #d2b48c, transparent);
+    margin-bottom: 20px;
+}
+
+#content::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #d2b48c, transparent);
+    margin-top: 20px;
 }
