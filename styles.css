@@ -2,17 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f4;
+    background: linear-gradient(120deg, #f0e68c, #b0c4de); /* 背景設為淡黃色和淡藍色的漸變 */
 }
 
 h1 {
-    color: #333;
+    color: #ffd700; /* 文字設為金黃色 */
+    text-align: center;
 }
 
 #content {
-    margin-top: 20px;
+    margin: 20px auto;
     padding: 20px;
-    background: #fff;
+    background: #fffacd; /* 背景設為米黃色 */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #ffb6c1; /* 邊框設為淡粉色 */
+    max-width: 800px;
+    line-height: 1.6;
 }
